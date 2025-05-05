@@ -1,0 +1,16 @@
+{
+  "name": "houkago-policy-site",
+  "version": "1.0.0",
+  "description": "ホウカゴ小説リーダーのプライバシーポリシーサイト",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^12.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
