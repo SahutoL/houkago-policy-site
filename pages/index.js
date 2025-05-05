@@ -154,8 +154,8 @@ export default function Home() {
             </li>
             <li>
               ウェブサイト:{" "}
-              <a href="https://houkago-novel-reader.com/contact">
-                https://houkago-novel-reader.com/contact
+              <a href="https://houkago-policy-site.vercel.app/contact">
+                https://houkago-policy-site.vercel.app/contact
               </a>
             </li>
           </ul>
