@@ -163,8 +163,11 @@ export default function Home() {
       </main>
 
       <footer className="footer">
-        <p>最終更新日: 2023年5月5日</p>
-        <p>© 2023 ホウカゴ All Rights Reserved.</p>
+        <p>
+          <a href="/contact">お問い合わせ</a>
+        </p>
+        <p>最終更新日: 2025年5月5日</p>
+        <p>© 2025 ホウカゴ All Rights Reserved.</p>
       </footer>
     </div>
   );

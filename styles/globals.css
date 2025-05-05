@@ -76,3 +76,65 @@ h3 {
 .section li {
     margin-bottom: 0.5rem;
 }
+
+/* コンタクトフォームのスタイル */
+.contact-form {
+    margin-top: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--divider-color);
+    border-radius: 4px;
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(187, 134, 252, 0.3);
+}
+
+.submit-button {
+    background-color: var(--primary-color);
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.submit-button:hover {
+    background-color: #CBB2FC;
+}
+
+.submit-button:active {
+    transform: translateY(1px);
+}
+
+.success-message {
+    background-color: rgba(3, 218, 198, 0.2);
+    border-left: 4px solid var(--accent-color);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
