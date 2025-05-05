@@ -8,6 +8,7 @@ module.exports = {
   exportPathMap: async function () {
     return {
       "/": { page: "/" },
+      "/contact": { page: "/contact" },
     };
   },
 };
