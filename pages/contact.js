@@ -16,7 +16,7 @@ export default function Contact() {
   });
 
   const [errors, setErrors] = useState({});
-  const [formspreeEndpoint] = useState("https://formspree.io/f/xayqvgvg"); // Formspreeのエンドポイントを設定
+  const [formspreeEndpoint] = useState("https://formspree.io/f/xayqvgvg");
 
   // フォームの入力値が変更されたときのハンドラ
   const handleChange = (e) => {
